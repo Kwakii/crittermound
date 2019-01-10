@@ -1,8 +1,8 @@
 <template>
   <div>
   <army-mound></army-mound>
-    <war v-if="atWar"></war>
-    <nations v-else></nations>
+    <war id="war" v-if="atWar"></war>
+    <nations id="nations" v-else></nations>
   </div>
 </template>
 

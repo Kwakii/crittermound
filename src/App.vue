@@ -13,8 +13,8 @@
       <b-tab :title="'Worker '+worker.current+' / '+worker.max">
         <worker></worker>
       </b-tab>
-      <b-tab :title="'Soldiers '+army.current+' / '+army.max">
-        <soldiers></soldiers>
+      <b-tab :title="'Soldier '+army.current+' / '+army.max">
+        <soldier></soldier>
       </b-tab>
       <b-tab :title="'Achievements '+achievement.current+' / '+achievement.max">
         <achievement></achievement>
