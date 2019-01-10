@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex flex-column">
-    <div v-for="nation in nations">
+    <div v-for="nation in nations" :key="nation.id">
       <b-card :id="'nation-'+nation.id" :title="nation.name" class="nationCard" :bg-variant="getBgVariant(nation.id)" :text-variant="getTextVariant(nation.id)" v-on:click="startWar(nation.id)">
         <p>{{ nation.custom }}</p>
         <p>{{ nation.minBaseVal }} - {{ nation.maxBaseVal }}</p>

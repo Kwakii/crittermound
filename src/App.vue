@@ -14,7 +14,7 @@
         <worker></worker>
       </b-tab>
       <b-tab :title="'Soldier '+army.current+' / '+army.max">
-        <soldier></soldier>
+        <soldiers></soldiers>
       </b-tab>
       <b-tab :title="'Achievements '+achievement.current+' / '+achievement.max">
         <achievement></achievement>

@@ -32,5 +32,5 @@ describe('The Soldier View', () => {
 
     expect(soldierWrapper.find('#war').exists()).to.be.true;
     expect(soldierWrapper.find('#nations').exists()).to.be.false;
-  })
+  });
 });
